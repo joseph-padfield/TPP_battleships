@@ -1,6 +1,7 @@
 import './App.css'
 import Header from "./components/Header";
 import Grid from "./components/Grid/script.tsx";
+import Table from "./components/Table";
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
       </p>
         <h1>main page</h1>
         <Grid />
+
+        <Table />
 
     </>
   )
