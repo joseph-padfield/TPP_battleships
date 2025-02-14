@@ -5,6 +5,11 @@ function Table () {
     const xAxis: string[] = ['1','2','3','4','5','6','7','8','9'];
     const yAxis: string[] = ['A','B','C','D','E','F','G','H','I'];
 
+    const getCoords = (x: string, y: string) => {
+        console.log(x, y);
+        return undefined
+    }
+
     return (
         <table>
             <thead>
@@ -21,7 +26,7 @@ function Table () {
                     <tr key={letter}>
                         <th>{letter}</th>
                         {xAxis.map((number): ReactElement => {
-                            return <td key={ `${letter}-${number}` }> { `${letter}-${number}` } </td>
+                            return <td key={ `${letter}-${number}` } onClick={() => getCoords(letter, number)}> { `${letter}-${number}` } </td>
                         })}
                     </tr>
                 )
