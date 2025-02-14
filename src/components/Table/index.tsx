@@ -6,8 +6,8 @@ function Table () {
     const yAxis: string[] = ['A','B','C','D','E','F','G','H','I'];
 
     const getCoords = (x: string, y: string) => {
-        console.log(x, y);
-        return undefined
+        console.log(x + y);
+        return (x + y)
     }
 
     return (
