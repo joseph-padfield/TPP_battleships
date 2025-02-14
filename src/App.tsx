@@ -1,6 +1,5 @@
 import './App.css'
 import Header from "./components/Header";
-import Grid from "./components/Grid/script.tsx";
 import Table from "./components/Table";
 
 function App() {
@@ -15,15 +14,8 @@ function App() {
       </div>
       <Header text={'BattleShips'}/>
         <img alt='Simpsons gif' src='https://media1.tenor.com/m/n0UdUfqG94sAAAAd/you-sunk-my-battleship-simpsons.gif'/>
-
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
         <h1>main page</h1>
-        <Grid />
-
         <Table />
-
     </>
   )
 }

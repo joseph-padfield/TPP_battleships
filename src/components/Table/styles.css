@@ -1,3 +1,4 @@
-td {
-    border: 1px white solid;
+td:hover {
+    background-color: red;
+    color: white;
 }
